@@ -1,0 +1,64 @@
+
+.container {
+    background-color: #2c3c48;
+    padding: 0px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(11, 11, 11, 0.1);
+    margin-left: 300px;
+    margin-right: 500px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    color: rgb(108, 53, 164);
+    font-family: Georgia, 'Times New Roman', Times, serif, italic;
+}
+table, th, td {    
+    border: 2px solid rgb(226, 14, 14);  
+    margin-left: auto;  
+    margin-right: auto;  
+    border-collapse: collapse;    
+    width: 500px;  
+    text-align: center;  
+    font-size: 20px;  
+    }  
+
+form {
+    margin-bottom: auto;
+    margin-top: auto;
+    ;
+}
+
+.center-button {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.game-cell {
+    padding: 2px;
+    border: 1px solid #e03535;
+    color: rgba(253, 253, 253, 0.5);
+    background-color: rgb(10, 10, 11);
+    text-align: center;
+    align-items: center;
+}
+
+.selected-cell {
+    background-color: yellow;
+    color: black;
+}
+
+.marked-cell {
+    background-color: rgb(6, 244, 54);
+    color: rgba(237, 9, 9, 0.886);
+}
+.game-cell img {
+    
+display: block;
+ margin: auto;
+}
